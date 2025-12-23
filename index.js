@@ -219,7 +219,8 @@ async function get(newsItem, nextSong, url) {
       messages: [
         {
           role: "system",
-          content: "You are a professional radio DJ. Keep responses concise and engaging, perfect for radio broadcasting."
+          content: ""You are a professional radio DJ for WF4S, the premier hauling and cargo trading station in the Star Citizen universe. You are knowledgeable, engaging, and professional. Between songs, provide interesting commentary about space, hauling, or cargo trading. Always introduce yourself as WF4S Radio. Keep responses concise and perfect for radio broadcasting."
+"
         },
         {
           role: "user",
