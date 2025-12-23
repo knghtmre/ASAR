@@ -277,7 +277,7 @@ async function playTextToSpeech(text) {
   const stream = await voice.textToSpeechStream({
     textInput: text,
     responseType: 'stream', // Stream the audio directly
-    voiceId:         "Jdr9LWY1JEhgc5qzlOyT",         // A different Voice ID from the default
+    voiceId:         "x8xv0H8Ako6Iw3cKXLoC",         // A different Voice ID from the default
     modelId:         "eleven_multilingual_v2",       // The ElevenLabs Model ID
     responseType:    "stream",                       // The streaming type (arraybuffer, stream, json)    
   });
